@@ -1,0 +1,10 @@
+{
+    "passenger": [
+        {
+            "id": 1,
+            "name": "Miss Sheillah",
+            "idNumber": "1200034",
+            "numberOfSeats": 0 
+        }
+    ]
+}
