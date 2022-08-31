@@ -23,28 +23,43 @@
         </div>
     </div>
 
-    <div>
-        <div>
+    <div class="departDetails">
+        <div id="braveEx">
             <h2>Brave Express e-Booking.</h2>
         </div>
+
         <div>
-            <div>
+            <div class="departure">
                 <label for="fromLocation">From</label>
                 <select name="depTown" id="departureTown">
+                    <option value="text">-From-</option>
                     <option value="text">Nairobi</option>
                     <option value="text">Eldoret</option>
                 </select>
             </div>
-            <div>
+
+            <div class="departure">
                 <label for="toLocation">To</label>
                 <select name="arrivalTown" id="arrivalTown">
+                    <option value="text">-To-</option>
                     <option value="text">Eldoret</option>
                     <option value="text">Nairobi</option>
                 </select>
             </div>
-        </div>
-        <div>
 
+            <div class="departureDate">
+                <label for="depDate">Depature Date</label>
+                <input type="date" id="depDate" name="DepDate">
+            </div>
+
+            <div class="departure">
+                <label for="depTime">Depature Time</label>
+                <select name="depTime" id="detTime">
+                    <option value="text">-Time-</option>
+                    <option value="text">9:00 AM</option>
+                    <option value="text">3:00 PM</option>
+                </select>
+            </div>
         </div>
     </div>
 
