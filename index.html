@@ -16,16 +16,16 @@
         </div>
         <div class="menu">
             <ul class="menuList">
-                <li class="menuItem"><a href="##">Train Booking</a></li>
-                <li class="menuItem"><a href="##">About</a></li>
-                <li class="menuItem"><a href="##">Contact Us</a></li>
+                <li class="menuItem"><a href="#">Train Booking</a></li>
+                <li class="menuItem"><a href="#aboutUs">About</a></li>
+                <li class="menuItem"><a href="#contactUs">Contact Us</a></li>
             </ul>
         </div>
     </div>
 
     <div class="departSection">
         <div id="braveEx">
-            <h2>Brave Express e-Booking.</h2>
+            <h2 id="braveEx">Brave Express e-Booking.</h2>
         </div>
 
         <div class="departureDetails">
@@ -62,10 +62,10 @@
             </div>
         </div>
 
-        <div class="passContainer" >
+        <div class="passContainer">
             <form id="passengerName">
-                <h4>Enter Personal Details</h4>
-                <div class="formcontainer" >
+                <h2 id="braveEx">Enter Personal Details</h2>
+                <div class="formcontainer">
                     <div class="formSection">
                         <label for="name">Name: </label>
                         <input type="text" name="name" id="newName" />
@@ -79,16 +79,35 @@
                         <input type="numbers" name="fareAmout" id="newfareAmount" />
                     </div>
                 </div>
-                <div>
-                    <input id="submitBtn" type="submit" value="Submit" />
-                    <input id="submitBtn" type="reset" value="Print Ticket"/>
+                <div class="buttons">
+                    <input id="submitBtn" type="submit" value="Submit" style="background-color: blue;" />
+                    <input id="submitBtn" type="reset" value="Print Ticket"
+                        style="background-color: #98c9fa; color: blue;" />
+                    <input id="submitBtn" type="button" value="Delete Ticket" style="background-color: grey;" />
+
                 </div>
-                
+
             </form>
 
             <img src="./assets/images/train.jpg" alt="BraveEx" width="400px">
         </div>
     </div>
+    <br>
+
+    <div class="btmfooter" >
+        <div class="bottoms" >
+            <h2 id="aboutUs" >About Brave</h2>
+            <p>Brave Express is a train transport service provider which offers convenience to customers through online ticket booking. Fill in your personal details, pay, print ticket and board our super trains for the best travel experiences.</p>
+        </div>
+        <div class="bottoms" >
+            <h2 id="contactUs" >Contact Us</h2>
+            <p>For any inquiries, trouble e-booking, complements or/and complains:</p>
+            <p>Visit our Offices at Nairobi and Eldoret Terminus.</p>
+            <p>Reach us via Email: info@braveexpress.com.</p>
+            <p>Call us on +25410098456.</p>
+        </div>
+    </div>
+
 
     <!-- <label for="rating">Rating: </label>
     <input type="number" name="rating" id="new-rating" />
