@@ -1,8 +1,39 @@
 .topnav{
     display: flex;
-    flex-direction: row;
     padding: 10px;
-    border: 0px
-    justify-conten
-
+    box-shadow: 0px -5px 10px 0px grey;
+    border: 0px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #98c9fa;
+}
+.logo {
+    width: 240px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 10px;
+}
+.logo img {
+    max-width: 85%;
+    padding: 6px;
+}
+.menuList {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 20px;
+    list-style-type: none;
+    padding-right: 100px;
+}
+.menuItem a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 40px;
+}
+.menuItem a:hover {
+    color: purple;
+    text-decoration: underline;
 }
