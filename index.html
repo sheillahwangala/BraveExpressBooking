@@ -29,78 +29,74 @@
         </div>
 
         <div class="departureDetails">
-            <div class="departure">
-                <label for="fromLocation">From</label>
-                <select name="depTown" id="departureTown" class="departureD">
-                    <option value="text">-From-</option>
-                    <option value="text">Nairobi</option>
-                    <option value="text">Eldoret</option>
-                </select>
-            </div>
-
-            <div class="departure">
-                <label for="toLocation">To</label>
-                <select name="arrivalTown" id="arrivalTown" class="departureD" >
-                    <option value="text">-To-</option>
-                    <option value="text">Eldoret</option>
-                    <option value="text">Nairobi</option>
-                </select>
-            </div>
-
-            <div class="departureDate">
-                <label for="depDate">Depature Date</label>
-                <input type="date" id="depDate" name="DepDate">
-            </div>
-
-            <div class="departure">
-                <label for="depTime">Depature Time</label>
-                <select name="depTime" id="detTime" class="departureD">
-                    <option value="text">-Time-</option>
-                    <option value="text">9:00 AM</option>
-                    <option value="text">3:00 PM</option>
-                </select>
-            </div>
+           
         </div>
 
         <div class="passContainer">
-            <form id="passengerName">
-                <h2 id="braveEx">Enter Personal Details</h2>
+            <form id="passengerName" action=" http://localhost:3000/passenger" method="POST">
+
+                <h2 id="braveEx">Enter Travel Details</h2>
+
                 <div class="formcontainer">
                     <div class="formSection">
+                        <label for="fromLocation">From:</label>
+                        <select name="depTown" id="departureTown">
+                            <option value="text">Nairobi</option>
+                            <option value="text">Eldoret</option>
+                        </select>
+                        <br>
+                        <label for="depDate">Depature Date:</label>
+                        <input type="date" id="depDate" name="DepDate">
                         <label for="name">Name: </label>
-                        <input type="text" name="name" id="newName" />
+                        <input type="text" name="name" id="newName"/>
                         <label for="idNumber">ID Number: </label>
-                        <input type="text" name="idNumber" id="newIdNumber" />
+                        <input type="text" name="idNumber" id="newIdNumber"/>
                     </div>
+
                     <div class="formSection">
+                        <label for="toLocation">To:</label>
+                        <select name="arrivalTown" id="arrivalTown">
+                            <option value="text">Eldoret</option>
+                            <option value="text">Nairobi</option>
+                        </select>
+                        <br>
+                        <label for="depTime">Depature Time:</label>
+                        <select name="depTime" id="depTime">
+                            <option value="text">9:00 AM</option>
+                            <option value="text">3:00 PM</option>
+                        </select>
+                        <br>
                         <label for="numOfSeats">Number Of Seats: </label>
-                        <input type="number" name="numOfSeats" id="newNumOfSeats" />
+                        <input type="number" name="numOfSeats" id="newNumOfSeats"/>
                         <label for="fareAmount">Fare Amount: </label>
-                        <input type="numbers" name="fareAmout" id="newfareAmount" />
+                        <input type="numbers" name="fareAmout" id="newfareAmount"/>
                     </div>
+
                 </div>
                 <div class="buttons">
-                    <input id="submitBtn" type="submit" value="Submit" style="background-color: #1E90FF;" />
-                    <input id="submitBtn" type="button" value="Pay for Ticket" style="background-color: #1E90FF;" />
-                    <input id="submitBtn" type="reset" value="Print Ticket" style="background-color: #1E90FF;" />
-                    <input id="submitBtn" type="button" value="Delete Ticket" style="background-color: #1E90FF; color: black;" />
+                    <input id="submit" type="submit" value="Submit" style="background-color: #1E90FF;"/>
+                    <input id="submit" type="button" value="Pay for Ticket" style="background-color: #1E90FF;"/>
+                    <input id="submit" type="reset" value="Print Ticket" style="background-color: #1E90FF;"/>
+                    <input id="submit" type="button" value="Delete Ticket" style="background-color: #1E90FF; color: black;" />
 
                 </div>
 
             </form>
 
-            <img src="./assets/images/train.jpg" alt="BraveEx" width="400px">
+            <img src="./assets/images/train.jpg" alt="BraveEx" width="500px" style="float:left">
         </div>
     </div>
     <br>
 
-    <div class="btmfooter" >
-        <div class="bottoms" >
-            <h2 id="aboutUs" >About Brave</h2>
-            <p>Brave Express is a train transport service provider which offers convenience to customers through online ticket booking. Fill in your personal details, pay, print ticket and board our super trains for the best travel experiences.</p>
+    <div class="btmfooter">
+        <div class="bottoms">
+            <h2 id="aboutUs">About Brave</h2>
+            <p>Brave Express is a train transport service provider which offers convenience to customers through online
+                ticket booking. Fill in your personal details, pay, print ticket and board our super trains for the best
+                travel experiences.</p>
         </div>
-        <div class="bottoms" >
-            <h2 id="contactUs" >Contact Us</h2>
+        <div class="bottoms">
+            <h2 id="contactUs">Contact Us</h2>
             <p>For any inquiries, trouble e-booking, complements or/and complains:</p>
             <p>Visit our Offices at Nairobi and Eldoret Terminus.</p>
             <p>Reach us via Email: info@braveexpress.com.</p>
