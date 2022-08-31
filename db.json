@@ -1,17 +1,45 @@
 {
-    "passenger": [
+  "passenger": [
+    {
+      "id": 1,
+      "name": "Miss Sheillah",
+      "idNumber": "1200034",
+      "numberOfSeats": 0,
+      "totalFare": 0,
+      "route": [
         {
-            "id": 1,
-            "name": "Miss Sheillah",
-            "idNumber": "1200034",
-            "numberOfSeats": 0,
-            "totalFare": 0,
-            "route": [
-                {
-                "departure": "nairobi",
-                "destination": "eldoret"
-                }
-            ]
+          "departure": "nairobi",
+          "destination": "eldoret"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Miss Shilah",
+      "idNumber": "1567392",
+      "seats": 1,
+      "totalFare": "NaN",
+      "id": 2
+    },
+    {
+      "name": "Miss Shilah",
+      "idNumber": "1567392",
+      "seats": 1,
+      "totalFare": "NaN",
+      "id": 3
+    },
+    {
+      "name": "Miss Shilah",
+      "idNumber": "1567392",
+      "seats": 1,
+      "totalFare": "NaN",
+      "id": 4
+    },
+    {
+      "name": "fairy",
+      "idNumber": "326181",
+      "numOfSeats": "1",
+      "fareAmout": "",
+      "id": 5
+    }
+  ]
 }
