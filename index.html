@@ -23,12 +23,12 @@
         </div>
     </div>
 
-    <div class="departDetails">
+    <div class="departSection">
         <div id="braveEx">
             <h2>Brave Express e-Booking.</h2>
         </div>
 
-        <div>
+        <div class="departureDetails">
             <div class="departure">
                 <label for="fromLocation">From</label>
                 <select name="depTown" id="departureTown">
@@ -61,8 +61,36 @@
                 </select>
             </div>
         </div>
+
+        <div class="passContainer" >
+            <form id="passengerName">
+                <h4>Enter Personal Details</h4>
+                <div class="formcontainer" >
+                    <div class="formSection">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="newName" />
+                        <label for="idNumber">ID Number: </label>
+                        <input type="text" name="idNumber" id="newIdNumber" />
+                    </div>
+                    <div class="formSection">
+                        <label for="numOfSeats">Number Of Seats: </label>
+                        <input type="number" name="numOfSeats" id="newNumOfSeats" />
+                        <label for="fareAmount">Fare Amount: </label>
+                        <input type="numbers" name="fareAmout" id="newfareAmount" />
+                    </div>
+                </div>
+                <input type="submit" value="Submit" />
+            </form>
+
+            <img src="./assets/images/train.jpg" alt="BraveEx" width="400px">
+        </div>
     </div>
 
+    <!-- <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="new-rating" />
+    <label for="new-comment">Comment: </label>
+    <textarea name="new-comment" id="new-comment"></textarea>
+    <input type="submit" value="Create" /> -->
 </body>
 
 </html>
