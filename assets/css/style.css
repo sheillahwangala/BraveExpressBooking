@@ -42,7 +42,7 @@
     padding-left: 10px;
 }
 .departSection {
-    box-shadow: 0px -5px 10px 0px grey;
+    box-shadow: 0px -5px 20px 0px grey;
     max-width: 98%;
     padding: 10px;
     padding-bottom: 20px;
@@ -51,11 +51,19 @@
     display: flex;
     margin: 20px;
     justify-content: space-evenly;
+    padding: 20px;
+
 }
 .passContainer {
     display: flex;
-    box-shadow: 2px -1px 12px 2px #87bdd8;
+    box-shadow: 2px -1px 12px 2px #1E90FF;
     
+}
+.departure {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100x;
+   
 }
 .formcontainer {
     display: flex;
@@ -77,7 +85,7 @@ textarea {
   margin: 10px 0;
 }
 form #submitBtn {
-    background-color: blue;
+    background-color: #1E90FF;
     border-radius: 10px;
     width: 120px;
     color: white;
@@ -87,7 +95,7 @@ form #submitBtn {
     margin-top: -20px;
 }
 .btmfooter {
-    background-color: #87bdd8;
+    background-color: #1E90FF;
     display: flex;
     box-shadow: 0px -5px 10px 0px grey;
     max-width: 98%;
