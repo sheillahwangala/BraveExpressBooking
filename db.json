@@ -4,7 +4,8 @@
             "id": 1,
             "name": "Miss Sheillah",
             "idNumber": "1200034",
-            "numberOfSeats": 0 
+            "numberOfSeats": 0,
+            "totalFare": 0,
         }
     ]
 }
