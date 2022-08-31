@@ -6,6 +6,12 @@
             "idNumber": "1200034",
             "numberOfSeats": 0,
             "totalFare": 0,
+            "route": [
+                {
+                "departure": "nairobi",
+                "destination": "eldoret"
+                }
+            ]
         }
     ]
 }
