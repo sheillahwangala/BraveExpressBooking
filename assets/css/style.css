@@ -3,9 +3,9 @@
     padding: 10px;
     box-shadow: 0px -5px 10px 0px grey;
     border: 0px;
-    max-width: 95%;
+    max-width: 98%;
     justify-content: space-between;
-    background-color: #98c9fa;
+    background-color: #87bdd8;
 }
 .logo {
     width: 240px;
@@ -39,11 +39,13 @@
 }
 #braveEx {
     color: blue;
+    padding-left: 10px;
 }
 .departSection {
     box-shadow: 0px -5px 10px 0px grey;
-    max-width: 95%;
+    max-width: 98%;
     padding: 10px;
+    padding-bottom: 20px;
 }
 .departureDetails {
     display: flex;
@@ -52,7 +54,7 @@
 }
 .passContainer {
     display: flex;
-    box-shadow: 2px -1px 12px 2px #98c9fa;
+    box-shadow: 2px -1px 12px 2px #87bdd8;
     
 }
 .formcontainer {
@@ -77,10 +79,23 @@ textarea {
 form #submitBtn {
     background-color: blue;
     border-radius: 10px;
-    width: 100px;
+    width: 120px;
     color: white;
     font-weight: bold;
     margin-left: 30px;
     border-style: none;
     margin-top: -20px;
+}
+.btmfooter {
+    background-color: #87bdd8;
+    display: flex;
+    box-shadow: 0px -5px 10px 0px grey;
+    max-width: 98%;
+    padding: 10px;
+}
+.bottoms {
+    max-width: 40%;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
 }
