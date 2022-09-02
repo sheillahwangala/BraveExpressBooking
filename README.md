@@ -5,12 +5,14 @@ BraveExpress e-Booking Application
 ## Table of Contents
 
 <!-- vscode-markdown-toc -->
-* 1. [Description](#Description)
-* 2. [Installation](#Installation)
-	* 2.1. [Requirements](#Requirements)
-	* 2.2. [Process](#Process)
-* 3. [Technology](#Technology)
-* 4. [Author](#Author)
+1. [Description](#Description)
+2. [Installation](#Installation)
+
+	2.1. [Requirements](#Requirements)
+
+	2.2. [Process](#Process)
+3. [Technology](#Technology)
+4. [Author](#Author)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
