@@ -27,7 +27,9 @@ The train management is also able to print-out a day’s booking report to deter
 ##  2. <a name='Installation'></a>Installation
 ###  2.1. <a name='Requirements'></a>Requirements
 For a user to acces and book tickets in this platform, all that is required is:
+
             A powered working computer, smartphone, tablet or ipad.
+            
             Access to working Internet connection.
 ###  2.2. <a name='Process'></a>Process
 To book a train ticket in this platform, a user opens the website, fills in all the travel and personal details then clicks submit. They should then be able to pay and get a print preview of the ticket. For e-booking to be a success, the its server must be live at all times. This is done by running the command -$ json-server --watch db.json- in terminal bearing the application files of your terminal.
