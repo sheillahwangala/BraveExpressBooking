@@ -26,6 +26,7 @@
     <div class="departSection">
         <div id="braveEx">
             <h2 id="braveEx">Brave Express e-Booking.</h2>
+            <p style="color: black;">Welcome to your most convenient, reliable and affordable travelling partner. Book to travel with us from the convenience of your home.</p>
         </div>
 
         <div class="departureDetails">
@@ -33,9 +34,8 @@
         </div>
 
         <div class="passContainer">
-            <form id="passengerName" action=" http://localhost:3000/passenger" method="POST">
-
-                <h2 id="braveEx">Enter Travel Details</h2>
+            <form id="tripDetails" action="http://localhost:3000/passenger" method="POST" > 
+                <h2 id="braveEx">Enter Travel and Personal Details</h2>
 
                 <div class="formcontainer">
                     <div class="formSection">
@@ -62,28 +62,35 @@
                         <br>
                         <label for="depTime">Depature Time:</label>
                         <select name="depTime" id="depTime">
-                            <option value="text">9:00 AM</option>
-                            <option value="text">3:00 PM</option>
+                            <option value="time">9:00 AM</option>
+                            <option value="time">3:00 PM</option>
                         </select>
                         <br>
                         <label for="numOfSeats">Number Of Seats: </label>
                         <input type="number" name="numOfSeats" id="newNumOfSeats"/>
                         <label for="fareAmount">Fare Amount: </label>
-                        <input type="numbers" name="fareAmout" id="newfareAmount"/>
+                        <input type="number" name="fareAmout" id="newfareAmount"/>
                     </div>
 
                 </div>
                 <div class="buttons">
                     <input id="submit" type="submit" value="Submit" style="background-color: #1E90FF;"/>
-                    <input id="submit" type="button" value="Pay for Ticket" style="background-color: #1E90FF;"/>
+                    <!-- <input id="submit" type="button" value="Pay for Ticket" style="background-color: #1E90FF;"/>
                     <input id="submit" type="reset" value="Print Ticket" style="background-color: #1E90FF;"/>
-                    <input id="submit" type="button" value="Delete Ticket" style="background-color: #1E90FF; color: black;" />
+                    <input id="submit" type="button" value="Delete Ticket" style="background-color: #1E90FF; color: black;" /> -->
 
                 </div>
-
             </form>
 
             <img src="./assets/images/train.jpg" alt="BraveEx" width="500px" style="float:left">
+        </div>
+
+        <div id="list" >
+            <h2>Brave Express e-Ticket</h2>
+            <ul id="tripInputs" >
+                
+            </ul>
+            
         </div>
     </div>
     <br>
@@ -103,13 +110,6 @@
             <p>Call us on +25410098456.</p>
         </div>
     </div>
-
-
-    <!-- <label for="rating">Rating: </label>
-    <input type="number" name="rating" id="new-rating" />
-    <label for="new-comment">Comment: </label>
-    <textarea name="new-comment" id="new-comment"></textarea>
-    <input type="submit" value="Create" /> -->
 
     <script src="./index.js"></script>
 </body>

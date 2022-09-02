@@ -114,7 +114,11 @@ form #submit {
     margin-left: 20px;
     text-align: center;
 }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 1000px) {
+    *{
+        font-display: inherit;
+        width: auto;
+    }
     .topnav a {
       float: none;
       width: 100%;

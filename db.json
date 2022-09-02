@@ -40,6 +40,72 @@
       "numOfSeats": "1",
       "fareAmout": "",
       "id": 5
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-01",
+      "name": "fairy talle",
+      "idNumber": "37365454",
+      "arrivalTown": "text",
+      "depTime": "text",
+      "numOfSeats": "2",
+      "fareAmout": "",
+      "id": 6
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-01",
+      "name": "fairy talle",
+      "idNumber": "37365454",
+      "arrivalTown": "text",
+      "depTime": "time",
+      "numOfSeats": "1",
+      "fareAmout": "",
+      "id": 7
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-02",
+      "name": "she ila",
+      "idNumber": "3564411",
+      "arrivalTown": "text",
+      "depTime": "time",
+      "numOfSeats": "1",
+      "fareAmout": "",
+      "id": 8
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-02",
+      "name": "shila wan",
+      "idNumber": "37365454",
+      "arrivalTown": "text",
+      "depTime": "time",
+      "numOfSeats": "2",
+      "fareAmout": "",
+      "id": 9
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-03",
+      "name": "trip one",
+      "idNumber": "343527",
+      "arrivalTown": "text",
+      "depTime": "time",
+      "numOfSeats": "4",
+      "fareAmout": "",
+      "id": 10
+    },
+    {
+      "depTown": "text",
+      "DepDate": "2022-09-03",
+      "name": "trip two",
+      "idNumber": "343527",
+      "arrivalTown": "text",
+      "depTime": "time",
+      "numOfSeats": "2",
+      "fareAmout": "",
+      "id": 11
     }
   ]
 }
