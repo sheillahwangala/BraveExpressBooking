@@ -26,17 +26,17 @@
     <div class="departSection">
         <div id="braveEx">
             <h2 id="braveEx">Brave Express e-Booking.</h2>
-            <p style="color: black;">Welcome to your most convenient, reliable and affordable travelling partner. Book to travel with us from the convenience of your home.</p>
+            <p style="color: black;">Welcome to your most convenient, reliable and affordable travelling partner. Book
+                to travel with us from the convenience of your home.</p>
         </div>
 
         <div class="departureDetails">
-           
+
         </div>
 
         <div class="passContainer">
-            <form id="tripDetails" action="http://localhost:3000/passenger" method="POST" > 
-                <h2 id="braveEx">Enter Travel and Personal Details</h2>
-
+            <form name="ticketForm" id="tripDetails" action="http://localhost:3000/passenger" method="POST">               
+                
                 <div class="formcontainer">
                     <div class="formSection">
                         <label for="fromLocation">From:</label>
@@ -47,10 +47,6 @@
                         <br>
                         <label for="depDate">Depature Date:</label>
                         <input type="date" id="depDate" name="DepDate">
-                        <label for="name">Name: </label>
-                        <input type="text" name="name" id="newName"/>
-                        <label for="idNumber">ID Number: </label>
-                        <input type="text" name="idNumber" id="newIdNumber"/>
                     </div>
 
                     <div class="formSection">
@@ -66,27 +62,47 @@
                             <option value="time">3:00 PM</option>
                         </select>
                         <br>
-                        <label for="numOfSeats">Number Of Seats: </label>
-                        <input type="number" name="numOfSeats" id="newNumOfSeats"/>
-                        <label for="fareAmount">Fare Amount: </label>
-                        <input type="number" name="fareAmout" id="newfareAmount"/>
                     </div>
 
                 </div>
                 <div class="buttons">
-                    <input id="submit" type="submit" value="Submit" style="background-color: #1E90FF;"/>
+                    <input id="submit" type="submit" value="Submit" style="background-color: #1E90FF;" />
                 </div>
             </form>
 
             <img src="./assets/images/train.jpg" alt="BraveEx" width="500px" style="float:left">
         </div>
 
-        <div id="list" >
+    </div>
+    <br>
+
+     <h2 id="braveEx">Enter Travel and Personal Details</h2>  
+    <form name="form1" class="formClass">
+        <p><b>Name:</b> <input TYPE="TEXT" SIZE="30" NAME="yourname">
+        </p>
+        <p><b>Phone: </b> <input TYPE="TEXT" SIZE="30" NAME="phone">
+        </p>
+        <p><b>From:</b> <input TYPE="TEXT" SIZE="25" NAME="from">
+        </p>
+        <p><b>To:</b> <input TYPE="TEXT" SIZE="25" NAME="to">
+        </p>
+        <p><b>Seats:</b> <input TYPE="TEXT" SIZE="25" NAME="seats">
+        </p>
+        <p><b>Fare:</b> <input TYPE="TEXT" SIZE="25" NAME="fare">
+        </p>
+        <p><input TYPE="BUTTON" VALUE="Print" onClick="display();" class="displyBtn"></p>
+    </form>
+
+    <div id="ticketReg">
+        <div id="list">
             <h2>Brave Express e-Ticket</h2>
-            <ul id="tripInputs" >
-                
+            <ul id="tripInputs">
+
             </ul>
-            
+        </div>
+        <div id="searchList">
+            <input type="text" placeholder=" Enter Name" name="search">
+            <button type="submit" onClick="searchTicket(name)" >Search</button>
         </div>
     </div>
     <br>
